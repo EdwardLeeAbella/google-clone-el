@@ -70,7 +70,7 @@ export default function Home() {
         sm:flex-row sm:space-x-4">
           <button onClick={search} className="btn">Edward Search</button>
 
-          <button onClick={search} className="btn">I'm Feeling Edward</button>
+          <button onClick={search} className="btn">Im Feeling Edward</button>
         </div>
       </form>
 
