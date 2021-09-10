@@ -28,7 +28,7 @@ function Search({ results }) {
 export default Search;
 
 export async function getServerSideProps(context) {
-    const useDummyData = true; // change to false to use actual google search api vice versa
+    const useDummyData = false; // change to false to use actual google search api vice versa
 
     const startIndex = context.query.start || '0';
 
